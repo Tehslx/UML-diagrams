@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="A_dmnDsLOcfm5_mEhiKT">
-    <mxGraphModel dx="1515" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1883" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,8 +60,14 @@
         <mxCell id="SCqXUWE8kxIAzhwebl2j-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Доступна?" vertex="1">
           <mxGeometry height="80" width="80" x="360" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-35" edge="1" parent="1" source="SCqXUWE8kxIAzhwebl2j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SCqXUWE8kxIAzhwebl2j-34" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7MVxAt0ZfzZLgVr7gPBK-1" edge="1" parent="1" source="SCqXUWE8kxIAzhwebl2j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SCqXUWE8kxIAzhwebl2j-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="750" />
+              <mxPoint x="50" y="420" />
+              <mxPoint x="400" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SCqXUWE8kxIAzhwebl2j-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;span lang=&quot;RU&quot; style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;&lt;font&gt;предлагается выбрать&lt;br/&gt;другую книгу&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="206" y="720" as="geometry" />
@@ -94,31 +100,6 @@
         </mxCell>
         <mxCell id="SCqXUWE8kxIAzhwebl2j-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Конец" vertex="1">
           <mxGeometry height="30" width="60" x="496" y="1000" as="geometry" />
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-42" edge="1" parent="1" source="SCqXUWE8kxIAzhwebl2j-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SCqXUWE8kxIAzhwebl2j-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-43" connectable="0" parent="SCqXUWE8kxIAzhwebl2j-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
-          <mxGeometry relative="1" x="-0.7364" y="3" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-45" edge="1" parent="1" source="SCqXUWE8kxIAzhwebl2j-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SCqXUWE8kxIAzhwebl2j-44" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-47" connectable="0" parent="SCqXUWE8kxIAzhwebl2j-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
-          <mxGeometry relative="1" x="-0.1062" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-34" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Выбрал?" vertex="1">
-          <mxGeometry height="80" width="80" x="226" y="850" as="geometry" />
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-46" edge="1" parent="1" source="SCqXUWE8kxIAzhwebl2j-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SCqXUWE8kxIAzhwebl2j-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SCqXUWE8kxIAzhwebl2j-44" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Читатель не получает книгу и уходит" vertex="1">
-          <mxGeometry height="60" width="120" x="46" y="860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
